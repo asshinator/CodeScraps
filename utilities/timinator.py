@@ -1,7 +1,10 @@
 import sys
 import timeit; 
 if len(sys.argv) < 1:
-    raise AssertionError("No Script specified to time!")
+    raise AssertionError("NoScript specified to time!")
+elif ".py" not in sys.argv[1]:
+    print(str(sys.argv[1])+ " is not a python Script!")
+    exit(1)
 scriptToExecute = sys.argv[1]
 numberOfIterations = int(sys.argv[2]) if len(sys.argv) > 2 else 100
 

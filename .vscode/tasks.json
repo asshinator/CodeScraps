@@ -8,7 +8,7 @@
             "type": "shell",
             "command": "python",
             "args": [
-                ".\\utilities\\timinator.py ${file}"
+                ".\\utilities\\timinator.py ${file} 1000"
             ],
             "group": {
                 "kind": "build",
