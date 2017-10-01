@@ -2,11 +2,9 @@
 of numbers upto a limit. It takes care of intersections so no number
 is counted twice :)"""
 from math import gcd
+from sys import exit
 #from functools import reduce
 
-def main():
-    """Execute the problem."""
-    print(compositeMultiplesToValue([3, 5], 999))
 
 def lcm(a, b):
     """Least common multiple is not in standard libraries?
@@ -64,6 +62,9 @@ class divisorSet:
         print(str(self.divSet)+"\n")
         print(str(self.LCMSet))
 
+def main():
+    """Execute the problem."""
+    print(compositeMultiplesToValue([3, 5], 999))
+
 if __name__ == "__main__":
-    main()
-    
+    main()    
