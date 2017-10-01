@@ -2,7 +2,6 @@
 of numbers upto a limit. It takes care of intersections so no number
 is counted twice :)"""
 from math import gcd
-from sys import exit
 #from functools import reduce
 
 
@@ -14,12 +13,12 @@ def sign(x) -> int:
     """Returns -1 if a number is negative and +1 if it is positive."""
     return (x > 0) - (x < 0)
 
-def multiplesToValue(x,V):
+def multiplesToValue(x, V):
     """The Sum of all multiples of x upto and including value V"""
     floor = V//x
     return x * (floor * (floor + 1)) // 2
 
-def compositeMultiplesToValue(listX,V):
+def compositeMultiplesToValue(listX, V):
     """The Sum of all multiples of all numbers in listX
     upto and including value V"""
     divSet = divisorSet(listX)
@@ -34,9 +33,9 @@ class divisorSet:
         self.divSet = []
         self.divSet.append(divisor)
 
-        if type(divisor) == int:
+        if isinstance(divisor, int):
             self.add(divisor)
-        elif type(divisor) == list:
+        elif isinstance(divisor, list):
             for d in divisor:
                 self.add(d)
         else:
@@ -67,4 +66,4 @@ def main():
     print(compositeMultiplesToValue([3, 5], 999))
 
 if __name__ == "__main__":
-    main()    
+    main()  

@@ -1,5 +1,7 @@
+"""This module is used to time the execution of other modules,
+and is executed through tasks.json"""
 import sys
-import timeit; 
+import timeit
 if len(sys.argv) < 1:
     raise AssertionError("NoScript specified to time!")
 elif ".py" not in sys.argv[1]:
@@ -21,10 +23,11 @@ if "timinator" not in scriptToExecute:
     print("PythonSnippet:\t"+stringerino)
     print("Execution:\t",end='')
     out = exec(stringerino)
-    if type(out)!=type(None):
+    if out != None:
         print(str(out))
     #mention Execution time.
-    print("Execution time over 100 runs:\t"+str(timeit.timeit(stringerino, number=numberOfIterations)))
+    print("Execution time over 100 runs:\t"
+          +str(timeit.timeit(stringerino, number=numberOfIterations)))
 else:
     print("timinator can't time itself. That's a conundrum!")
     
