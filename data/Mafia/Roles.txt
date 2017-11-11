@@ -1,0 +1,1204 @@
+---------------------
+>   118:Villager
+Wins if there are no mafia remaining.
+Sided with the village.
+---------------------
+---------------------
+>   119:Mafia
+Chooses one person to kill every night.
+Wins when the mafia outnumber the village.
+Sided with the mafia.
+---------------------
+---------------------
+>   120:Doctor
+Can choose one person to save every night. 
+
+Sided with the village.
+---------------------
+---------------------
+>   2581:Nurse
+Can choose one person to save every night.
+Any role that it visits will be role blocked.
+Sided with the village.
+---------------------
+---------------------
+>   5945:Surgeon
+Visits one person during the night.  
+Prevents that person from dying and from being converted.  
+One person who tries to kill the surgeon's target on the same night will die.
+Sided with the village.
+---------------------
+---------------------
+>   121:Bodyguard
+Chooses one person every night.  
+If he chooses the same person mafia tries to kill: 50/50 chance of either a Mafia dying or the Bodyguard dying.  
+Has a 100% chance to kill if protecting a Celebrity.
+Sided with the village.
+---------------------
+---------------------
+>   122:Cop
+Visits one person every night.
+Receives a report with that person's alignment.
+Sided with the village. 
+---------------------
+---------------------
+>   123:Insane Cop
+Visits one person every night.
+Receives a report with that person's alignment.
+Guilty reports will appear innocent.
+Innocent reports will appear guilty.
+Appears as normal Cop to himself and upon death.
+Sided with the village.
+---------------------
+---------------------
+>   6125:Confused Cop
+Visits one person every night.
+Receives a report with that person's alignment.
+Reports will be random.
+Appears as normal Cop to himself and upon death.
+Sided with the village.
+---------------------
+---------------------
+>   124:Paranoid Cop
+Visits one person every night.
+Receives a report with that person's alignment.
+Everyone will always appear guilty.
+Appears as normal Cop to himself and upon death.
+When investigating an Alien, the Alien will appear "sided with the Alien".
+Sided with the village.
+---------------------
+---------------------
+>   125:Naive Cop
+Visits one person every night.
+Receives a report with that person's alignment.
+Everyone will always appear innocent.
+Appears as normal Cop to himself and upon death.
+Sided with the village.
+---------------------
+---------------------
+>   6037:Lazy Cop
+Visits one person every night.
+Receives a report of the person's alignment on the day after.
+Cannot be roleblocked.
+Appears as normal Cop to himself and upon death.
+Sided with the village.
+---------------------
+---------------------
+>   126:Watcher
+Chooses one person every night.
+Will know who visited that person that night.
+Will see only one visiting mafia killing.
+Watcher's night action does not count as a visit.
+Sided with the village.
+---------------------
+---------------------
+>   127:Tracker
+Visits one person every night.
+Will know who that person visited that night.
+Sided with the village.
+---------------------
+---------------------
+>   230:Detective
+Visits one person every night.
+Receives a report with the role of that person.
+If that person has a suit, will learn the role of the suit instead.
+Sided with the village.
+---------------------
+---------------------
+>   2091:Snoop
+Visits one person every night.
+Discovers what items they have at the start of day phase. 
+Can see Mason and Cultist robes.
+Can see Miller, Insane, Paranoid, and Naive suits.
+Can see Sheriff, Deputy, Sniper guns and Bulletproof vests.
+Sided with the village.
+---------------------
+---------------------
+>   2210:Journalist
+Visits one person every night.
+Any system messages that person receives that night are given to the Journalist as well.
+Sided with the village.
+---------------------
+---------------------
+>   166:Mortician
+Visits one dead player every night.
+Learns the role of that player.
+Sided with the village.
+---------------------
+---------------------
+>   5927:Pathologist
+Visits a dead player every night.
+All system messages that player received are given to Pathologist the next day.
+Sided with the village.
+---------------------
+---------------------
+>   128:Vigilante
+Visits one person every night.
+Kills that person.
+If visiting the same person as mafia, the Vigilante dies.
+If shot by the mafia, Vigilante fails to kill.
+Sided with the village.
+---------------------
+---------------------
+>   349:Sheriff
+Carries one gun that can be shot during the day.
+Gun cannot be stolen.
+Identity will be revealed when the gun is shot.
+Sided with the village.
+---------------------
+---------------------
+>   2090:Deputy
+Carries one gun that can be shot during the day.
+Gun cannot be stolen.
+Identity will not be revealed when the gun is shot.
+Sided with the village.
+---------------------
+---------------------
+>   165:Drunk
+Visits one person every night.
+Any role that it visits will be role blocked.
+Visiting a Driver causes them to die.
+Sided with the village.
+---------------------
+---------------------
+>   945:Sleepwalker
+Randomly visits one person every night.
+Visit is mandatory and does nothing.
+Appears as villager to self.
+Sided with the village.
+---------------------
+---------------------
+>   6302:Civilian
+Mafia win if more than half the number of civilians in play die.
+Mafia win if...
+... a lone Civilian dies
+... If both are dead out of 2 total Civilians
+... If 2 are dead out of 3 total Civilians
+... If 3 are dead out of 4 total Civilians
+... If 3 are dead out of 5 total Civilians
+...etc.
+---------------------
+---------------------
+>   15739:President
+At the beginning of the game, all village sided players are informed to who the president is.
+If the president dies, the mafia automatically wins.
+Sided with the village.
+---------------------
+---------------------
+>   129:Miller
+Appears as villager to self.
+When investigated by cop, will appear to be guilty.
+When lynched, appears to be mafia.
+When killed, appears to be miller.
+Sided with the village.
+---------------------
+---------------------
+>   4182:Suspect
+Appears as blue to self.
+Appears as mafia to cops.
+Appears as self on death.
+Sided with the village.
+---------------------
+---------------------
+>   130:Leader
+If killed, votes will be anonymous during the next day.
+Sided with the village.
+---------------------
+---------------------
+>   131:Bulletproof
+Has a bulletproof vest.
+The vest allows the Bulletproof to survive one shot.
+Sided with the village.
+---------------------
+---------------------
+>   3047:Bleeder
+Will not instantly die if shot.
+After a day, the Bleeder will die.
+If shot while dying, nothing happens. 
+Sided with the village.
+
+---------------------
+---------------------
+>   132:Bomb
+Anyone who kills him/her will be blown up.
+Will not explode if lynched.
+Sided with the village.
+---------------------
+---------------------
+>   133:Granny
+Will kill anyone who visits her during the night.
+Cannot die during the night or be killed during the day.
+Sided with the village.
+---------------------
+---------------------
+>   134:Hunter
+When lynched, is awarded the ability to kill any other player as they die.
+Sided with the village.
+---------------------
+---------------------
+>   2340:Town Crier
+Can send anonymous messages that appear during day phases.
+Sided with the village.
+---------------------
+---------------------
+>   2361:Invisible Man
+Can choose to follow a person during the day.
+If this person has meeting during the night, the invisible man hears conversation without name of people who are talking.
+Sided with the village.
+
+---------------------
+---------------------
+>   568:Governor
+Can override a lynch once during a game.
+Cannot override a no lynch.
+If the lynch is overridden from Hunter or Paparazzi, they still can perform their actions, but they don't die.
+Sided with the village.
+---------------------
+---------------------
+>   2372:Telepath
+Can send anonymous messages to people (like agent/spy but sends them to the person not the role)
+
+Sided with the village
+---------------------
+---------------------
+>   135:Agent
+Can send anonymous messages to any role not aligned with village.
+Sided with the village.
+---------------------
+---------------------
+>   1183:Celebrity
+Current role will always be revealed to all.
+Immune to Tailor.
+Sided with the village.
+---------------------
+---------------------
+>   1409:Loudmouth
+Appears as villager to self.
+If visited during the night, it will reveal all visitors, but only one mafia. The order is random.
+When whispered, the whisper always leaks.
+Cannot be silenced by a Silencer.
+Will not be alerted if visited by a Ninja.
+Sided with the village.
+---------------------
+---------------------
+>   136:Mason
+Visits one person to recruit every night.
+If recruiting a Town-sided role, they will be converted into a Mason.
+If recruiting a Mafia-sided role, all visiting masons die unless Roleblocked.
+If recruiting a Cultist, Cultist dies.
+If recruiting a Killer, Killer dies.
+Sided with the village.
+---------------------
+---------------------
+>   347:Templar
+Shares a night meeting with all other Templars. 
+Sided with the Village.
+---------------------
+---------------------
+>   137:Shrink
+Visits one person every night.
+That person cannot be converted that night.
+Can choose to target self.
+Converts Killer to Villager.
+Sided with the village.
+---------------------
+---------------------
+>   339:Samurai
+Will kill anyone who tries to convert him at night.
+Can only kill 2 people.
+Can only be converted into a zombie.
+Will kill the Ninja if visited by one.
+Sided with the village.
+---------------------
+---------------------
+>   153:Jailer
+If no lynching, chooses one target at the end of the day.
+The target will be visited by the Jailer and jailed at night.
+The target will be immune to night actions (except driving).
+The target cannot do any action except write a will.
+The Jailer and the target can converse at night.
+The Jailer's identity is not revealed to the target.
+The Jailer can choose to kill the jailed person. Counts as a visit which can be role blocked.
+Sided with the village.
+---------------------
+---------------------
+>   461:Chef
+Chooses two people during the day.
+Those two people are invited to a banquet for dinner and conversation.
+The two people know each other's roles but not each other's identities.
+Sided with the village.
+---------------------
+---------------------
+>   384:Turncoat
+Appears as villager to self.
+If mafia tries to kill, he will turn into a Traitor.
+Sided with the village.
+---------------------
+---------------------
+>   2216:Enchantress
+Visits one person once per game.
+Gives that player a crystal ball.
+Whoever has a crystal ball can choose a person each night.
+When the holder of the crystal ball dies, the role of the last person chosen will be revealed to all players.
+Sided with the village.
+---------------------
+---------------------
+>   1026:Priest
+Visits self every night.
+Learns what roles visited him during the night.
+Werewolves who visit are exorcised and die.
+If were to be killed has 50% chance of...
+... Changes mafia to Traitors
+... Changes village sided killers to Villagers.
+... Changes third party to Survivors.
+Sided with the village.
+---------------------
+---------------------
+>   279:Trapper
+Visits one person every night.
+Will kill one person who visited that person that night.
+If a killing role visits alongside others, it will kill in this order: Mafia, Third-party, and then Town-sided.
+Sided with the village.
+---------------------
+---------------------
+>   168:Baker
+Can give two pieces of bread every night.  
+
+Once the Baker is dead, the famine begins. Whoever does not have bread for 3 days will die from famine.
+
+Sided with the village.
+---------------------
+---------------------
+>   1391:Ghoul
+
+
+Chooses one person every night.
+
+If targeted by a killing role, the chosen person will be killed instead.
+Ability only works once.
+
+Sided with the village.
+---------------------
+---------------------
+>   1260:Party Host
+Throws a wild party once a game.
+Everyone who is alive will be invited.
+Everyone will be sharing a night meeting.
+All night actions and such go on as per normal.
+Sided with the village.
+---------------------
+---------------------
+>   3891:Penguin
+
+At night, the penguin is able to "waddle" over to someone and tell them a secret about another player.
+
+Multiple forms of secrets.
+
+For example, (1)"During the night a fluffy penguin visits you and tells you that Player 1 has visited Player 2." ; (2)"During the night a fluffy penguin visits you and tells you that Player 1 is carrying a suit." ; (3) During the night a fluffy penguin visits you and tells you that Player 1 has taken no action over the course of the night."
+
+The secrets are randomized.
+
+If drunked/hooked/nursed, the Penguin visit does not go through and instead the Penguin will receive a message saying "You tried to visit Player 1, but a ferocious seal was blocking you."
+
+If two Penguins are in the game and one visits the other, they will mate and all player actions will be blocked during the night (can only happen once per game).
+Sided with the village.
+---------------------
+---------------------
+>   15562:Justice
+Can choose two different players at night.
+Will receive a report in the morning whether the two players have same or different alignments.
+---------------------
+---------------------
+>   311:Judge
+The Judge's votes counts as two votes during the day.
+Sided with the village.
+---------------------
+---------------------
+>   152:Gallis
+Appears as a villager to self.
+If lynched the gallis will not die
+If he has a minority vote on him when the lynch is finalized, he will die.
+Sided with the village.
+---------------------
+---------------------
+>   500:Huntsman
+Hunter that gets lynched with minority vote. Selfvote does not count.
+Sees Self as Hunter
+
+Village sided.
+---------------------
+---------------------
+>   15680:Mechanic
+Fixes all items that it receives that are broken or sabotaged.
+Immune to saboteur visits.
+Sided with the village
+---------------------
+---------------------
+>   1758:Treestump
+Can choose to become a tree at night.
+Once a tree, cannot be killed or converted.
+Once a tree, cannot vote.
+Can be killed if doused and lit by an Arsonist.
+Sided with the village.
+---------------------
+---------------------
+>   15633:Bride
+Once a game during the day, can choose to propose to a player
+The player must decide whether they will or will not marry the Bride
+If they accept, both the bride and the groom will be revealed
+Otherwise the town will know they declined
+Sided with the village
+---------------------
+---------------------
+>   15566:Monkey
+Each night, chooses one person for their "Monkey See" meeting and one person for their "Monkey Do" meeting
+Mimics the actions of the person in "Monkey See," performs those action on the person in the "Monkey Do" meeting.
+Blocks the action of the person in "Monkey See"
+Sided with the village
+---------------------
+---------------------
+>   8505:Secretary
+If ever killed then voting will be completely disabled the following day.
+Being lynched will have no effect.
+Guns and other items or actions preformed during the day will still work.
+Sided with the village.
+---------------------
+---------------------
+>   351:Virgin
+If lynched, mafia cannot kill the next night.
+When visited by Hooker, becomes a Villager.
+Sided with the village.
+---------------------
+---------------------
+>   13354:Cutler
+Chooses one person to give a knife to every night.
+Knives always reveal the attacker upon use.
+Knives will cause the target to bleed.
+Knives break after one use.
+Sided with the village.
+---------------------
+---------------------
+>   183:Blacksmith
+Visits one person every night.
+That person receives a vest.
+The vest allows the person to survive one shot.
+Sided with the village.
+---------------------
+---------------------
+>   167:Oracle
+Chooses one person every night.
+When the oracle dies, the role of the last person chosen will be revealed to all.
+Cannot be roleblocked.
+Sided with the village.
+---------------------
+---------------------
+>   6422:Psychic
+Visits one person every night.
+    Will learn that person's true alignment regardless of role.
+    Will learn nothing if visited by anyone.
+    Sided with the village.
+---------------------
+---------------------
+>   1208:Dreamer
+Will receive a dream at the start of every day phases.
+The dream can tell a tale of 3 people, at least one of whom is mafia or the dream can tell a tale of one person whom is innocent.
+Does not dream if visited at night.
+Sided with the village.
+---------------------
+---------------------
+>   2129:Angel
+Assigned one person at the start of the game.
+Can choose to save that person once per game.
+If that person dies that night or is lynched the next day, Angel dies instead.
+Wins if their target is alive at the end of the game.
+---------------------
+---------------------
+>   160:Lightkeeper
+If killed, town will be engulfed in darkness during the next day.
+Players cannot see who is talking.
+Players cannot see who voted whom.
+Sided with the village.
+---------------------
+---------------------
+>   2845:Keymaker
+Makes a Key each night and gives it to a player. 
+That player can then lock himself in his house during any night of the game. 
+Locked player is roleblocked for that night and can not be visited that night.
+A player with a key can not be jailed.
+
+Keymaker can make a key for himself.
+Ninjas and Thieves can visit locked players normally.
+
+Sided with the village.
+---------------------
+---------------------
+>   169:Gunsmith
+Chooses one person to give a gun to every night
+Guns from the gunsmith have a 50% chance of revealing the shooter upon firing.
+Sided with the village.
+---------------------
+---------------------
+>   8538:Tinkerer
+At night, if visited by no one, crafts a gun and arms himself with it.
+When killed, his workshop is raided and one visitor receives a gun the following day.
+If lynched, the first voting the tinkerer raids the workshop and receives the gun.
+The gun raided from the workshop will always reveal the shooter
+---------------------
+---------------------
+>   1024:Mimic
+Chooses one person at night.
+Visits that person (can be Driven).
+Checks alignment, then performs an action:
+If the Mimic chose a town:
+...Visits that person and self (cannot be Driven).
+...Steals their role and turns them into a Villager.
+If the Mimic chose a mafia:
+...Visits self (cannot be Driven).
+...Turns self into a Villager.
+If the Mimic chose a 3rd party role: 
+...Visits self (cannot be Driven).
+...Turns self into an Amnesiac.
+Sided with the village.
+---------------------
+---------------------
+>   2418:Santa
+Visits one player every night.
+Will learn if they are "Naughty" (Mafia) or "Nice" (Town) or "Neither Naughty nor Nice" (Third-party).
+Will not receive a report if visited.
+Visits a second player every night.
+That person will receive an item of Santa's choice.
+Can give guns, vests, knives, snowballs, crystal balls, or bread.
+Sided with the village.
+---------------------
+---------------------
+>   15565:Snowman
+Can give a snowball every night.
+During the day, the snowball can be thrown at a player.
+The snowball will roleblock whoever it hits for the following night.
+Immune to snowballs.
+Sided with the village.
+---------------------
+---------------------
+>   15612:Butterfly
+When killed, resets everyone's roles to what it was at the beginning of the game
+Sided with the village
+---------------------
+---------------------
+>   15645:Trickster
+Gives out at random a crystal, gun, knife, snowball, bomb, or vest to a random player each night
+Appears as villager
+Sided with the village
+---------------------
+---------------------
+>   3829:Caroler
+Visits one person every night.
+Sings a carol that consists of three players, at least one of which is mafia.
+If player sung to is visiting that night, they don't hear the carol.
+Cannot choose the same person consecutively.
+Sided with the village.
+---------------------
+---------------------
+>   2068:Siren
+Selects one person at night
+If the selected person visits the Siren that night, the person dies
+Wins if successfully kills two people
+---------------------
+---------------------
+>   1303:Monk
+Visits one person every night.
+If that person is killed or lynched, they are protected.
+Wins if he successfully protects twice.
+Alternatively, wins if no one dies for four day/night phases.
+---------------------
+---------------------
+>   138:Cultist
+Visits one person every night.
+That person is converted to the Cult.
+Any Cult member visited by Mason at night will die.
+If the Cult leader is killed, all Cult members will die.
+Wins if Cultists outnumber everyone else.
+---------------------
+---------------------
+>   1650:Cthulhu
+Anyone who visits Cthulhu goes mad.
+Mad players are unable to vote and their chat is jumbled.
+Only the Shrink can cure madness.
+If masons attempt to mason Cthulhu, Cthulhu will die.
+Can only win with the cult.
+---------------------
+---------------------
+>   15734:Cyborg
+Starts with three charges.
+Receives a charge every time they receive a non-deadly town visit at night.
+Loses a charge each day, as well as if they are shot, stabbed, or attacked at night.
+Once per day, can choose to use a charge to convert another player into a Cyborg.
+All Cyborgs share a night meeting.
+Only dies when their charge count hits zero.
+Wins if the Cyborgs outnumber the town.
+---------------------
+---------------------
+>   15798:Nomad
+Visits one person each night to join their alignment (village or mafia).
+Visiting third party will give the Nomad no alignment.
+Wins with alignment.
+---------------------
+---------------------
+>   411:Zombie
+Visits one person every night.
+That person gets an infection that converts them to a Zombie exactly one day later.
+Doctors can kill Zombies by visiting them.
+Immune to Drunk, Hooker, conversions, can be killed.
+Survivors will be infected but will not become zombies.
+Wins if everyone is either infected or zombified.
+All Zombies will die if they try infecting a cult member
+---------------------
+---------------------
+>   139:Fool
+Can visit one person every night.
+The visit does nothing.
+Wins the game upon being lynched.
+Can win with the town instead, while receiving substantially less points.
+---------------------
+---------------------
+>   1117:Lover
+Visits one person at night once per game.
+The target will fall madly in love with her.
+Both will die if the other dies of any circumstance.
+Wins if both are alive at the end of the game.
+---------------------
+---------------------
+>   12513:Cupid
+Picks two people night one, entagling them in love.
+Both the chosen players recieve a message d1, informing them who they've been paired with.
+The chosen players retain their roles but also act as lovers.
+Cupid wins if both players survive until the end of the game.
+---------------------
+---------------------
+>   140:Lyncher
+One person in the town irritates him. Selected at random. Mafia cannot be chosen.
+Wins if that person is lynched.
+Wins if town wins, while receiving less points.
+---------------------
+---------------------
+>   141:Killer
+Must visit one person every night.
+Kills that person.
+Wins if alive alone or among the final two.
+---------------------
+---------------------
+>   2696:Clockmaker
+Clock starts at 6.
+Chooses one person to kill each night.
+If victim is villager, clock goes up one hour.
+If victim is mafia, clock goes up two hours.
+If victim is third party, clock goes down three hours.
+Gets an extra life if clock goes to 9 o clock.
+Dies immediately if clock lands on 3.
+Wins if 12 o clock, or if one of last 2 alive.
+---------------------
+---------------------
+>   15910:Rival
+At the start of the game, knows who all other rivals are.
+Whichever rival is left alive at the end of the game wins.
+If multiple rivals are alive at the end, none will win.
+---------------------
+---------------------
+>   154:Survivor
+Visits one person each night.
+If that person does not visit, the Survivor hides in their home and cannot be targeted.
+Dies if their chosen person dies that night.
+Wins if alive at the end of the game.
+---------------------
+---------------------
+>   156:Warlock
+Each night chooses one person.
+If that person is lynched the next day, the warlock has predicted correctly.
+The warlock wins if he/she predicts correctly two times.
+---------------------
+---------------------
+>   8036:Mistletoe
+Chooses two people to put under the mistletoe.
+If the players alignments are the same, they fall in love.
+If players alignments are different, nothing happens and the Mistletoe is alerted that the love failed.
+Wins if everyone alive is in love with someone. Does not win with town.
+Is converted to Mafia if visited by a Hooker.
+Sided with the third-party.
+---------------------
+---------------------
+>   15649:Gambler
+Once a night, can choose someone to play rock / paper / scissors with.
+If the player loses, the gambler takes his/her life.
+If the player wins or ties, the player escapes unharmed.
+Gambler wins if alive and takes two lives.
+---------------------
+---------------------
+>   2037:Prophet
+Chooses an upcoming day or night during the night once.
+Wins if the game ends at that time.
+---------------------
+---------------------
+>   952:Alien
+Visits one human every night.
+That human is probed.
+Probes count as items.
+Wins if all living humans are probed.
+If visited by Paranoid Cop, appears "sided with the Alien".
+Sided with the third-party.
+---------------------
+---------------------
+>   174:Werewolf
+Visits one person and attempts to call the role of that person.
+If correct...
+The Werewolf devours that player.
+The Werewolf becomes invulnerable to day kills and lynches for one day.
+If wrong...
+The Werewolf will be revealed to all.
+Wins if Werewolves outnumber all parties.
+---------------------
+---------------------
+>   158:Amnesiac
+Visits one person in the graveyard at night.
+Acquires the role of the chosen player and its win condition.
+Amnesiac cannot win the game if they do not pick a player.
+---------------------
+---------------------
+>   1368:Anarchist
+Visits one person every night.
+That person receives a bomb.
+Bomb will explode at a random time during the day, killing the holder.
+Anarchist holding the bomb will not die, but will be revealed.
+Wins if alive among final two, or if able to kill three people.
+---------------------
+---------------------
+>   1682:Creepy Girl
+Gives out a doll at night.  
+
+The doll can be passed around.  
+
+Wins when whoever has the doll dies at night.  
+
+Third Party.
+---------------------
+---------------------
+>   159:Traitor
+Does not participate in mafia meetings. Mafia does not know who Traitor is.
+Appears as a innocent on Cop reports.
+Does not count toward mafia's majority win condition.
+Only wins if mafia wins.
+---------------------
+---------------------
+>   3060:Admirer
+All Admirers in the setup are evenly distributed to any Killers in the setup.
+Knows who their Killer is, but Killers don't know who their Admirers are.
+When a Killer dies, one of his Admirers (chosen at random) becomes a copycat Killer.
+When that copycat dies, another Admirer of the original Killer becomes a Killer.
+Appears as Villager when investigated.
+The Killer and his respective Admirers win when they outnumber the village.
+---------------------
+---------------------
+>   15533:Sidekick
+Randomly sided with a third party at the beginning of the game.
+Wins if the chosen third party player wins.
+---------------------
+---------------------
+>   6157:Old Maid
+Can choose one player to switch roles with each night
+Nothing can prevent the role switch
+Old Maid cannot win
+---------------------
+---------------------
+>   1978:Autocrat
+Wins if alive when village wins.
+Village does not win if Autocrat is alive.
+---------------------
+---------------------
+>   161:Politician
+Vote counts twice during the day.
+Politician will be sided with a random side at game start.
+The Politican switches alignments every day until N2 (D3 for Daystart/Dawnstart setups). Afterwards, he switches alignments every 1.5 days.
+---------------------
+---------------------
+>   15836:Librarian
+Once in the game can force the village into a library during the day.
+Everyone can only whisper to each other in the library.
+Sided with the mafia
+---------------------
+---------------------
+>   142:Silencer
+Visits one person every night.
+That person cannot talk during day.
+Does not attend mafia meetings.
+Sided with the mafia.
+---------------------
+---------------------
+>   8728:Blinder
+Visits one person each night.
+Chosen person cannot see votes or voting logs the next day.
+Does not attend mafia meetings.
+Sided with the mafia.
+---------------------
+---------------------
+>   283:Sniper
+Carries one gun that can be shot during the day.
+Identity will not be revealed when the gun is shot.
+Does not attend mafia meetings.
+Sided with the mafia.
+---------------------
+---------------------
+>   3564:Illusionist
+Starts off with one gun. (Gun is immune to Sab)
+Can choose someone at night.
+When the gun is fired, it reveals to have been shot by whoever this player chose.
+Can do this once a game.
+Attends mafia meetings
+Sided with Mafia
+---------------------
+---------------------
+>   2292:Saboteur
+Visits one person every night.
+If that person has a gun, the gun is rigged.
+A rigged gun will explode and kill the owner instead.
+Sided with the mafia.
+---------------------
+---------------------
+>   143:Yakuza
+Visits one person and himself.
+That person is converted to mafia, and the Yakuza dies.
+Cannot be saved.
+Sided with the mafia.
+---------------------
+---------------------
+>   4533:Consigliere
+Appears to everyone as a villager
+Does not attend mafia meetings
+Can convert self to mafia once per game.
+Sided with the mafia
+---------------------
+---------------------
+>   144:Godfather
+Appears innocent on cop reports.
+Sided with the mafia.
+---------------------
+---------------------
+>   145:Framer
+Visits one person every night.
+That person will appear guilty on cop reports that night.
+Sided with the mafia.
+---------------------
+---------------------
+>   146:Hooker
+Visits one person every night.
+Any role that visits will be role blocked.
+Visiting a Virgin converts them into a Villager.
+Visiting a Mistletoe converts them into a Mafia.
+Sided with the mafia.
+---------------------
+---------------------
+>   147:Disguiser
+Visits one person every night.
+If that person dies during that night, the Disguiser will steal his/her player identity.
+Sided with the mafia.
+---------------------
+---------------------
+>   429:Actress
+Visits one person every night.
+Learns that person's role.
+The Actress will appear as that person's role upon death.
+Sided with the mafia.
+---------------------
+---------------------
+>   182:Tailor
+Visits one person every night.
+That person receives a suit chosen by the Tailor.
+If that person dies, his/her role will be revealed as whatever the suit is.
+Sided with the mafia.
+---------------------
+---------------------
+>   1365:Informant
+Visits one person every night.
+Any system messages that person may have received are given to Informant as well.
+Sided with the mafia.
+---------------------
+---------------------
+>   2637:Strongman
+Once per game, can use his strength.
+Strength guarantees the mafia's kill is successful.
+Works through roleblocking and protection.
+Sided with the mafia.
+---------------------
+---------------------
+>   148:Janitor
+Visits one person at night once per game.
+If that person dies, only the Janitor will know his/her role.
+Sided with the mafia.
+---------------------
+---------------------
+>   7296:Don
+The Don can override a lynch once during a game.
+Can not override a mafia-lynch.
+Can not override a no-lynch.
+Sided with the mafia.
+---------------------
+---------------------
+>   15557:Prosecutor
+Vote counts twice
+Sided with the mafia
+---------------------
+---------------------
+>   15700:Filibuster
+Can only be lynched if every village member votes for them.
+Sided with the mafia
+---------------------
+---------------------
+>   789:Interrogator
+If no lynching, chooses one target at the end of the day.
+The target will be visited by the Interrogator and jailed at night.
+The target will be immune to night actions (except driving).
+The target cannot do any action except write a will.
+The Interrogator and the target can converse at night.
+The Interrogator's identity is not revealed to the target.
+The Interrogator can choose to kill the jailed person. Counts as a visit which can be role blocked.
+Does not attend mafia meetings.
+Sided with the mafia.
+---------------------
+---------------------
+>   5670:Whisperer
+Can send anonymous messages to players.
+Sided with the mafia.
+---------------------
+---------------------
+>   15701:Slasher
+Receives a knife each day if not disturbed during the night.
+When used, the knife never reveals the slasher.
+Does not participate in mafia meetings.
+Sided with the mafia
+---------------------
+---------------------
+>   149:Spy
+Can send anonymous messages to any role.
+Sided with the mafia.
+---------------------
+---------------------
+>   150:Lawyer
+Visits one mafia member every night.
+That person will appear innocent on cop reports.
+Sided with the mafia.
+---------------------
+---------------------
+>   1188:Forger
+Visits one person every night.
+Can change that person's will at night.
+He/she will learn of that person's real will the next day.
+Sided with the mafia.
+---------------------
+---------------------
+>   151:Stalker
+Visits one person every night.
+Receives a report with the role of that person.
+Sided with the mafia.
+---------------------
+---------------------
+>   1280:Enforcer
+Visits one person every night.
+Prevents that person from being converted that night.
+Converts Killer to Traitor.
+Sided with the mafia.
+---------------------
+---------------------
+>   1067:Quack
+Visits one person every night.
+That person will be protected from dying that night.
+Does not attend mafia meetings.
+Sided with the mafia.
+---------------------
+---------------------
+>   203:Poisoner
+Visits one person every night, poisoning the selected player.
+Poisoned players will die a day later, and know they are poisoned.
+The doctor can heal poison.
+Sided with the mafia.
+---------------------
+---------------------
+>   157:Driver
+Visits two people every night.
+Any person who visits one of those people will visit the other chosen person instead.
+The Driver meeting's actions will not be on Watcher's report.
+Dies if visited by a Drunk.
+Sided with the mafia.
+---------------------
+---------------------
+>   8784:Toreador
+Visits one person every night.
+The person visited  will automatically visit the toreador during this same night (except if it's a role who doesn't visit during night).
+Sided with the mafia.
+---------------------
+---------------------
+>   5893:Gramps
+Learns a role of any player who visits him.
+Can not be killed at night or shot during day.
+Sided with the mafia.
+
+---------------------
+---------------------
+>   162:Interceptor
+Visits one person each night.
+Kills one other person who visits the chosen person, excluding the mafia's kill visit.
+Anyone else who visits the same person finds out the identity of the interceptor.
+Sided with the mafia.
+---------------------
+---------------------
+>   585:Fiddler
+Visits one person every night.
+The next day, that person cannot hear town discussion.
+Does not attend mafia meetings.
+Sided with the mafia.
+---------------------
+---------------------
+>   15873:Plumber
+Can choose one person each night to visit.
+Can choose to either:
+a. Clog pipe - victim will send whispers, but the whispered will not receive the message
+b. Break pipe - victim will always leak when whispering
+c. Patch pipe - victim will never leak unless if they force leak, in which they will start leaking again
+Sided with the mafia
+---------------------
+---------------------
+>   164:Witch
+Visits one person each night.
+That person will kill themself if visited by a person not sided with the mafia that night.
+Player can still be protected.
+Sided with the mafia.
+---------------------
+---------------------
+>   15683:Heartbreaker
+Can choose somebody to love once a game
+If the heartbreaker dies, the chosen lover dies as well.
+If the lover dies, the heartbreaker is unaffected.
+Sided with the mafia
+---------------------
+---------------------
+>   170:Ventriloquist
+Can speak as a chosen target, to another chosen target during the day.
+Sided with the mafia.
+---------------------
+---------------------
+>   15646:Diabolist
+Each night casts a spell on an individual, forbidding them from voting for someone.
+If that person were to make the forbidden vote, they die.
+Sided with the mafia
+---------------------
+---------------------
+>   1207:Voodoo Lady
+Chooses a 4 letter or more word and a player every night.
+If the chosen player says the chosen word, that player will die!
+Sided with the mafia.
+---------------------
+---------------------
+>   180:Thief
+Visits one person every night.
+Steals a random item from that player.
+Cannot steal sheriff/deputy guns.
+Does not attend mafia meetings.
+Sided with the mafia.
+---------------------
+---------------------
+>   15648:Apprentice
+When a fellow mafia member dies during the day, can decide whether to take over his/her role.
+Sided with the mafia
+---------------------
+---------------------
+>   2590:Paralyzer
+Can choose to paralyze the town once a game.
+Everyone's votes will be locked if they are voting.
+Sided with the mafia.
+---------------------
+---------------------
+>   1250:Paparazzi
+When lynched, can choose one person to reveal. 
+The person revealed will be visible only to the mafia.
+Sided with the mafia.
+---------------------
+---------------------
+>   924:Scout
+Visits one person every night.
+Will know who that person visited that night.
+Sided with the mafia.
+---------------------
+---------------------
+>   6115:Associate
+Gives a working gun to a non-mafia member once per night.
+The gun will not kill a mafia member. (e.g. will show up as if it hit a bulletproof vest)
+The gun can kill other villagers.
+The gun has a 50% chance of revealing, 50% chance of being anonymous.
+Sided with the mafia.
+---------------------
+---------------------
+>   1219:Fabricator
+Visits one person every night.
+That person will receive an item of Fabricator's choice.
+Fake vest will not protect.
+Fake bread will not preserve the player.
+Fake gun will kill the shooter.
+Fake crystal balls will not reveal their targets.
+Fake keys will not lock out visitors
+Fake knives will not cause their target to bleed.
+Fake snowballs will not stun.
+Sided with the Mafia.
+---------------------
+---------------------
+>   925:Lookout
+Chooses one person every night.
+Will know who visited that person that night.
+Does not count as a visit itself.
+Sided with the mafia.
+---------------------
+---------------------
+>   247:Ninja
+Does not visit when killing.
+Can night kill bombs without risk. Be sure to vote first.
+Does not alert Loudmouth when visiting them.
+Can be killed if visiting a Samurai.
+Sided with the mafia.
+---------------------
+---------------------
+>   6116:Hitman
+Visits one person every night.
+Kills that person.
+Doesn't attend mafia meetings.
+Sided with the mafia.
+---------------------
+---------------------
+>   8475:Arsonist
+Visits one person every night.
+That person will be doused with gasoline.
+Once per game can choose to set fire to all doused players, killing them.
+Does not attend mafia meetings.
+Can kill Treestumps by dousing and lighting them.
+Sided with the mafia.
+---------------------
+---------------------
+>   15952:Medusa
+Anyone who visits Medusa at night, turns into stone the following day (after this day, they are converted back to normal).
+Being turned into stone doesn't do anything, but Medusa can see how many players she turned to stone overnight.
+Once a game, Medusa can choose to crumble all stones and kill them.
+Sided with the mafia
+---------------------
+---------------------
+>   386:Terrorist
+Chooses a person during the day.
+The chosen person and the Terrorist both blow up and die.
+Sided with the mafia.
+---------------------
+---------------------
+>   1037:Mastermind
+If Mastermind is in the game, mafia meetings are anonymous.
+Wins if alive when mafia wins.
+Mafia does not win if mastermind is alive.
+---------------------
+---------------------
+>   249:Host 
+Can pass on role to another user on any day/night.
+Cannot die.
+Games cannot be ranked with host.
+If host exists, village meetings can have no whisper leaks.
+---------------------

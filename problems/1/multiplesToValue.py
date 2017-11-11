@@ -2,6 +2,7 @@
 of numbers upto a limit. It takes care of intersections so no number
 is counted twice :)"""
 from math import gcd
+import sys
 #from functools import reduce
 
 
@@ -21,10 +22,10 @@ def multiplesToValue(x, V):
 def compositeMultiplesToValue(listX, V):
     """The Sum of all multiples of all numbers in listX
     upto and including value V"""
-    divSet = divisorSet(listX)
+    divSet = DivisorSet(listX)
     return divSet.evaluate(V)
 
-class divisorSet:
+class DivisorSet:
     """A composite set of divisors."""
     def __init__(self, divisor=1):
         """Initializer. Inductively created set of LCMs that can evaluate
@@ -42,7 +43,7 @@ class divisorSet:
             raise AttributeError("Weird Item"+str(divisor))
 
     def add(self, divisor: int = 1):
-        """Add an item to the divisorSet"""
+        """Add an item to the DivisorSet"""
         self.divSet.append(divisor)
         LCMSet2 = self.LCMSet[:]
         self.LCMSet.append(divisor)
@@ -50,7 +51,7 @@ class divisorSet:
             self.LCMSet.append((-1) * sign(x) * lcm(divisor, abs(x)))
 
     def evaluate(self, limit: int) -> int:
-        """evaluate multiplesToValue for the divisorSet against a limit"""
+        """evaluate multiplesToValue for the DivisorSet against a limit"""
         result = 0
         for x in self.LCMSet:
             result += sign(x) * multiplesToValue(abs(x), limit)
@@ -66,4 +67,8 @@ def main():
     print(compositeMultiplesToValue([3, 5], 999))
 
 if __name__ == "__main__":
-    main()  
+    if 'isNullRun' in globals():
+        True
+    else:
+        main()
+    

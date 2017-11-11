@@ -2,7 +2,9 @@
 and is executed through tasks.json"""
 import sys
 import timeit
-if len(sys.argv) < 1:
+import cProfile
+
+if len(sys.argv) < 2:
     raise AssertionError("NoScript specified to time!")
 elif ".py" not in sys.argv[1]:
     print(str(sys.argv[1])+ " is not a python Script!")
@@ -26,8 +28,15 @@ if "timinator" not in scriptToExecute:
     if out != None:
         print(str(out))
     #mention Execution time.
-    print("Execution time over 100 runs:\t"
-          +str(timeit.timeit(stringerino, number=numberOfIterations)))
+    baseExecutionTime = timeit.timeit(stringerino, number=numberOfIterations)
+    print("Execution time over "+str(numberOfIterations)+" runs:\t"
+          +str(baseExecutionTime))
+    nullExecutionTime = timeit.timeit(stringerino,"isNullRun=True",number=numberOfIterations)
+    print("Null Execution time over "+str(numberOfIterations)+" runs:\t"
+          +str(nullExecutionTime))
+    deltaExecutionTime = (baseExecutionTime - nullExecutionTime) / numberOfIterations
+    print("average delta execution time:"+str(deltaExecutionTime))
+    
 else:
     print("timinator can't time itself. That's a conundrum!")
     
